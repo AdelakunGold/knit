@@ -1,0 +1,37 @@
+
+.body{
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 50%;
+    }
+
+.navbar{
+    opacity: 100%;
+    color: #FFFFFF;
+    box-shadow: #000000;
+    }
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 40px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
